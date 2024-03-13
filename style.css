@@ -1,0 +1,602 @@
+body{
+
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+*{
+
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* nav-bar */
+
+.nav-section{
+
+    height: 100px;
+    background-color: #21243d;
+}
+
+.container{
+
+    padding: 0px 100px 0px 100px;
+}
+
+.wrapper{
+
+    display: flex;
+
+}
+
+.nav-lg{
+
+height: 45px;
+padding-top: 20px;
+}
+
+.toggle{
+
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    color: white;
+    font-size: 20px;
+    display: none;
+}
+
+.navbar-nav{
+
+    height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+padding-left: 200px;
+}
+
+.nav-item{
+
+list-style-type: none;
+padding-left: 80px;
+}
+
+.nav-item-1{
+
+list-style-type: none;
+}
+
+.nav-link{
+
+text-decoration: none;
+color: white;
+font-size: 20px;
+}
+
+.glass-icon{
+
+    font-size: 20px;
+    color: white;
+    padding-left: 250px;
+    padding-top: 36px;
+}
+
+/* banner */
+
+.banner-section{
+
+    height: 700px;
+    background-image: url(./banner-img.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.banner-content{
+
+
+}
+
+.banner-title{
+
+   font-size: 90px;
+   color: white;
+   padding-top: 150px;
+}
+
+.banner-para{
+
+font-size: 20px;
+color: white;
+padding-top: 40px;
+font-weight: 700;
+width: 50%;
+}
+
+.banner-button{
+
+height: 50px;
+width: 200px;
+color: white;
+background-color:  #21243d; 
+font-size: 18px;
+font-weight: 700;
+margin-top: 60px;
+border-style: none;
+}
+
+/* menu-card */
+
+.menu-card-section{
+
+  height: 800px;
+  background-color: #21243d;
+  background-image: url(./menu-bg-design.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+.menu-title{
+
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.menu-para{
+
+font-size: 20px;
+color: white;
+text-align: center;
+padding-top: 10px;
+}
+
+.menu-card-content{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.menu-card-1{
+
+width: 30%;
+text-align: center;
+}
+
+.menu-img{
+
+
+}
+
+.menu-subtitle{
+
+font-size: 35px;
+color: white;
+padding-top: 10px;
+}
+
+.menu-subpara{
+
+font-size: 18px;
+color: white;
+padding-top: 10px;
+}
+
+.menu-card-2{
+
+    width: 30%;
+    text-align: center;
+    padding-left: 40px;
+    }
+
+    /* sub-banner */
+
+    .sub-banner-sec{
+
+        height: 750px;
+        background-image: url(./sub-banner-design.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center;
+    }
+
+    .sub-banner-content{
+
+         display: flex;
+    }
+
+    .img-sub-banner-part{
+
+        width: 50%;
+    }
+
+    .sub-banner-img{
+
+         height: 400px;
+         width: 400px;
+         padding-top: 150px;
+         padding-left: 80px;
+    }
+
+    .text-sub-banner{
+
+       width: 50%;
+    }
+
+    .sub-banner-title{
+
+        font-size: 80px;
+        color: #21243d;
+        padding-top: 180px;
+    }
+
+    .sub-banner-para{
+      
+    font-size: 20px;
+     color: #21243d;
+     padding-top: 40px;
+     font-weight: 700;
+    width: 80%;
+        
+
+    }
+
+    .sub-banner-button{
+
+        height: 50px;
+        width: 200px;
+        color: white;
+        background-color:  #21243d; 
+        font-size: 18px;
+        font-weight: 700;
+        margin-top: 60px;
+        border-style: none;   
+
+
+    }
+
+    /* statistics */
+
+    .stat-section{
+
+        
+  height: 750px;
+  background-color: #21243d;
+  background-image: url(./stat-design-new.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+    }
+
+    .stat-title{
+
+        font-size: 60px;
+        color: white;
+        text-align: center;
+        padding-top: 60px;
+    }
+
+    .stat-para{
+
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .stat-content{
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 50px;
+    }
+
+    .stat-1{
+
+      border: 2px solid white;
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+    }
+
+    .stat-subtitle-1{
+
+        font-size: 50px;
+        color: white;
+    }
+
+    .stat-subtitle-2{
+
+          font-size: 35px;
+          color: white;
+    }
+
+    .stat-2{
+
+        border: 2px solid white;
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 80px;
+    }
+
+    /* sub-banner-2 */
+
+    .sub-banner-2-sec{
+
+        height: 750px;
+        background-color: #ffd17e;
+        background-image: url(./sub-banner-2-design.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center;
+    }
+
+    .sub-banner-2-content{
+
+        display: flex;
+    }
+
+    .sub-banner-2-text{
+
+        width: 50%;
+    }
+
+    .sub-banner-2-title{
+
+        font-size: 80px;
+        color: #21243d;
+        padding-top: 180px;
+    }
+
+    .sub-banner-2-para{
+      
+    font-size: 20px;
+     color: #21243d;
+     padding-top: 40px;
+     font-weight: 700;
+    width: 80%;
+        
+
+    }
+
+    .sub-banner-2-button{
+
+        height: 50px;
+        width: 200px;
+        color: white;
+        background-color:  #21243d; 
+        font-size: 18px;
+        font-weight: 700;
+        margin-top: 60px;
+        border-style: none;   
+
+
+    }
+
+    .img-sub-banner-2-part{
+
+        width: 50%;
+    }
+
+    .sub-banner-2-img{
+
+         height: 400px;
+         width: 400px;
+         padding-top: 150px;
+         padding-left: 80px;
+    }
+
+
+
+    /* chef */
+
+    .chef-section{
+
+        height: 700px;
+        background-image: url(./chef-bg-new.png);
+        background-color: #21243d;
+        background-blend-mode: multiply;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center;
+    }
+
+    .chef-content{
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .chef-pic{
+
+       padding-top: 120px;
+       height: 200px;
+       width: 200px;
+    }
+
+    .chef-para{
+
+   font-size: 25px;
+   color: white;
+   width: 60%;
+   text-align: center;
+   padding-top: 20px;
+   
+    }
+
+    .chef-name{
+
+   color: white;
+   font-size: 40px;
+   padding-top: 30px;
+    }
+
+
+
+    /* subscribe */
+
+.subscribe-sec{
+
+    height: 650px;
+    background-color: #ffd17e;
+    background-image: url(./Design-subscribe.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.subscribe-title{
+
+    font-size: 80px;
+    color: #21243d;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.subscribe-para{
+
+    font-size: 20px;
+    color: #21243d;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.for-mail{
+
+display: flex;
+padding-top: 100px;
+justify-content: center;
+align-items: center;
+}
+
+.mail-part{
+
+height: 50px;
+width: 500px;
+border-style: none;
+border-radius: 30px;
+padding-left: 20px;
+font-size: 15px;
+}
+
+.subscribe-button{
+
+height: 50px;
+width: 180px;
+border-radius: 30px;
+background-color: #21243d;
+color: white;
+font-size: 18px;
+border-style: none;
+transform: translate(-30%,0%);
+
+}
+
+/* footer */
+
+.footer-section{
+
+    height: 500px;
+    background-color: black;
+}
+
+.footer-content{
+
+padding-top: 100px;
+display: flex;
+}
+
+.footer-1{
+
+    width: 25%;
+}
+
+.footer-title{
+
+font-size: 35px;
+color: white;
+}
+
+.footer-para{
+
+font-size: 20px;
+color: white;
+padding-top: 20px;
+}
+
+.footer-social-part{
+
+padding-top: 20px;
+}
+
+.footer-social-1{
+
+color: black;
+background-color: white;
+border-style: none;
+border-radius: 50%;
+padding: 10px;
+font-size: 18px;
+
+}
+
+.footer-social-2{
+
+color: black;
+background-color: white;
+border-style: none;
+border-radius: 50%;
+padding: 10px;
+margin-left: 10px;
+font-size: 18px;
+}
+
+.footer-2{
+
+    width: 25%;
+    padding-left: 100px;
+}
+
+.footer-bar{
+
+    list-style-type: none;
+    padding-top: 20px;
+}
+
+.footer-item-1{
+
+    font-size: 20px;
+    color: white;
+
+}
+
+.footer-item{
+
+    font-size: 20px;
+    color: white;
+    padding-top: 20px;
+
+}
+
+.footer-3{
+
+    width: 25%;
+    
+}
